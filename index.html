@@ -1,42 +1,61 @@
 <!DOCTYPE htlm>
 <html>
   <head>
-    <meta charset="utf-8">
     <title>バベル難易度表</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bmstable" content="header.json" />
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
   </head>
+  
   <body>
-    <h1><center>バベル難易度表</center></h1>
-    <table align="center" border="1" >
-      <tr><th colspan="2">難易度表換算表</th></tr>
-      <tr>
-        <th>バ0-</th>
-        <th>～▽10</th>
-      </tr>
-      <tr>
-        <th>バ0</th>
-        <th>▽10</th>
-      </tr>
-      <tr>
-        <th>バ1-</th>
-        <th>▽11,sl0の下位譜面</th>
-      </tr>
-      <tr>
-        <th>バ1</th>
-        <th>sl0</th>
-      </tr>
-      <tr>
-        <th>バ1+</th>
-        <th>sl0の上位譜面</th>
-      </tr>
-      <tr>
-        <th>バ2</th>
-        <th>sl1</th>
-      </tr>
-      <tr>
-        <th>バ2+</th>
-        <th>sl1の上位譜面</th>
-      </tr>
-    </table>
+     <header class="mb-3">
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+                <span class="navbar-brand mb-0 h1">バベル難易度表</span>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="container">
+      <div class="alert alert-success mb-3" role="alert">
+        <table align="center" border="1" >
+          <tr><th colspan="2">難易度表換算表</th></tr>
+          <tr>
+            <th>バ0-</th>
+            <th>～▽10</th>
+          </tr>
+          <tr>
+            <th>バ0</th>
+            <th>▽10</th>
+          </tr>
+          <tr>
+            <th>バ1-</th>
+            <th>▽11,sl0の下位譜面</th>
+          </tr>
+          <tr>
+            <th>バ1</th>
+            <th>sl0</th>
+          </tr>
+          <tr>
+            <th>バ1+</th>
+            <th>sl0の上位譜面</th>
+          </tr>
+          <tr>
+            <th>バ2</th>
+            <th>sl1</th>
+          </tr>
+          <tr>
+            <th>バ2+</th>
+            <th>sl1の上位譜面</th>
+          </tr>
+        </table>
 
     <!--ここから難易度表本体-->
         <div>
